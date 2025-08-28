@@ -40,13 +40,13 @@
 
             <!-- icon2 -->
              <div class="icon1 w-[100px] h-[45px] flex  bg-cyan-50 rounded-[50px] ">
-              <p class="flex items-center text-xl  px-2 font-bold ml-1"><span>100</span></p>
+              <p class="flex items-center text-xl  px-2 font-bold ml-1"><span id="coin">100</span></p>
               <img src="assets/coin.png" alt="" class="h-7 flex items-center  mt-[10px]">
             </div>
 
             <!-- icon3 -->
             <div class="icon1 w-[120px] h-[45px] flex  bg-[#00A63E] rounded-[50px] ">
-              <p class="flex items-center text-xl  px-[2px] font-bold ml-5 text-white "><span>0</span></p>
+              <p class="flex items-center text-xl  px-[2px] font-bold ml-5 text-white "><span id="copy-count">0</span></p>
               <p class="flex items-center text-xl  text-white font-bold ml-2">Copy</p>
               
             </div>
@@ -87,15 +87,15 @@
                 </div>
             <!-- card-info -->
                 <div class="info mt-4">
-                <h1 class="hind-madurai-light font-bold text-[16px] ">National Emergency Number</h1>
-                <p class="hind-madurai-light text-[14px] text-gray-500">National Emergency</p>
-                <p class="font-bold text-xl">999</p>
+                <h1 id="s-name1" class="hind-madurai-light font-bold text-[16px] ">National Emergency Number</h1>
+                <p  class="hind-madurai-light text-[14px] text-gray-500">National Emergency</p>
+                <p id="copy1" class="font-bold text-xl">999</p>
                 <button class="bg-slate-200 px-4 py-1 rounded-[40%] text-gray-700 mt-3">All</button>
 
                 <div class="btn-group flex gap-4 mx-2 mt-5">
-                  <button class="w-[160px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
+                  <button onclick="copyText()" class="w-[160px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
 
-                  <button class="w-[160px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
+                  <button id="call1" class="w-[160px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
                 </div>
                 
                 </div>
@@ -111,15 +111,17 @@
                 </div>
             <!-- card-info -->
                 <div class="info mt-4">
-                <h1 class="hind-madurai-light font-bold text-[16px] ">Police Helpline Number</h1>
+                <h1 id="s-name2" class="hind-madurai-light font-bold text-[16px] ">Police Helpline Number</h1>
                 <p class="hind-madurai-light text-[14px] text-gray-500">Police</p>
-                <p class="font-bold text-xl">999</p>
+
+                <p id="copy1"  class="font-bold text-xl">999</p>
+
                 <button class="bg-slate-200 px-4 py-1 rounded-[40%] text-gray-700 mt-3">Police</button>
 
                 <div class="btn-group flex gap-4 mx-6 mt-5">
-                  <button class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
+                  <button onclick="copyText()" class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
 
-                  <button class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
+                  <button id="call2" class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
                 </div>
                 
                 </div>
@@ -135,15 +137,15 @@
                 </div>
             <!-- card-info -->
                 <div class="info mt-4">
-                <h1 class="hind-madurai-light font-bold text-[16px] ">Fire Service Number</h1>
+            <h1 id="s-name3"  class="hind-madurai-light font-bold text-[16px] ">Fire Service Number</h1>
                 <p class="hind-madurai-light text-[14px] text-gray-500">Fire Service </p>
-                <p class="font-bold text-xl">999</p>
+                <p id="copy1" class="font-bold text-xl">999</p>
                 <button class="bg-slate-200 px-4 py-1 rounded-[40%] text-gray-700 mt-3">Fire</button>
 
                 <div class="btn-group flex gap-4 mx-6 mt-5">
-                  <button class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
+                  <button  onclick="copyText()"  class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
 
-                  <button class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
+                  <button id="call3" class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
                 </div>
                 
                 </div>
@@ -160,15 +162,15 @@
                 </div>
             <!-- card-info -->
                 <div class="info mt-4">
-                <h1 class="hind-madurai-light font-bold text-[16px] ">Ambulance Service</h1>
+                <h1 id="s-name4" class="hind-madurai-light font-bold text-[16px] ">Ambulance Service</h1>
                 <p class="hind-madurai-light text-[14px] text-gray-500">Ambulance</p>
-                <p class="font-bold text-xl">1994-999999</p>
+                <p id="copy2" class="font-bold text-xl">1994-999999</p>
                 <button class="bg-slate-200 px-4 py-1 rounded-[40%] text-gray-700 mt-3">Health</button>
 
                 <div class="btn-group flex gap-4 mx-6 mt-5">
-                  <button class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
+                  <button onclick="copyText2()"  class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
 
-                  <button class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
+                  <button id="call4" class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
                 </div>
                 
                 </div>
@@ -185,15 +187,15 @@
                 </div>
             <!-- card-info -->
                 <div class="info mt-4">
-                <h1 class="hind-madurai-light font-bold text-[16px] ">Women & Child Helpline</h1>
+                <h1 id="s-name5" class="hind-madurai-light font-bold text-[16px] ">Women & Child Helpline</h1>
                 <p class="hind-madurai-light text-[14px] text-gray-500">Women & Child Helpline</p>
-                <p class="font-bold text-xl">109</p>
+                <p id="copy3" class="font-bold text-xl">109</p>
                 <button class="bg-slate-200 px-4 py-1 rounded-[40%] text-gray-700 mt-3">Help</button>
 
                 <div class="btn-group flex gap-4 mx-6 mt-5">
-                  <button class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
+                  <button onclick="copyText3()" class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
 
-                  <button class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
+                  <button id="call5" class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
                 </div>
                 
                 </div>
@@ -210,15 +212,15 @@
                 </div>
             <!-- card-info -->
                 <div class="info mt-4">
-                <h1 class="hind-madurai-light font-bold text-[16px] ">Anti-Corruption Helpline</h1>
+                <h1 id="s-name6" class="hind-madurai-light font-bold text-[16px] ">Anti-Corruption Helpline</h1>
                 <p class="hind-madurai-light text-[14px] text-gray-500">Anti-Corruption</p>
-                <p class="font-bold text-xl">106</p>
+                <p  id="copy4" class="font-bold text-xl">106</p>
                 <button class="bg-slate-200 px-4 py-1 rounded-[40%] text-gray-700 mt-3">Govt.</button>
 
                 <div class="btn-group flex gap-4 mx-6 mt-5">
-                  <button class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
+                  <button onclick="copyText4()" class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
 
-                  <button class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class=" click fa-solid fa-phone mr-2 "></i>Call</button>
+                  <button id="call6" class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class=" click fa-solid fa-phone mr-2 "></i>Call</button>
                 </div>
                 
                 </div>
@@ -234,15 +236,15 @@
                 </div>
             <!-- card-info -->
                 <div class="info mt-4">
-                <h1 class="hind-madurai-light font-bold text-[16px] ">Electricity Helpline</h1>
+                <h1 id="s-name7" class="hind-madurai-light font-bold text-[16px] ">Electricity Helpline</h1>
                 <p class="hind-madurai-light text-[14px] text-gray-500">Electricity Outage</p>
-                <p class="font-bold text-xl">16216</p>
+                <p  id="copy5" class="font-bold text-xl">16216</p>
                 <button class="bg-slate-200 px-4 py-1 rounded-[40%] text-gray-700 mt-3">Electricity</button>
 
                 <div class="btn-group flex gap-4 mx-6 mt-5">
-                  <button class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
+                  <button onclick="copyText5()" class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
 
-                  <button class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
+                  <button id="call7"  class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
                 </div>
                 
                 </div>
@@ -259,15 +261,15 @@
                 </div>
             <!-- card-info -->
                 <div class="info mt-4">
-                <h1 class="hind-madurai-light font-bold text-[16px] ">Brac Helpline</h1>
+                <h1 id="s-name8" class="hind-madurai-light font-bold text-[16px] ">Brac Helpline</h1>
                 <p class="hind-madurai-light text-[14px] text-gray-500">Brac</p>
-                <p class="font-bold text-xl">16445</p>
+                <p id="copy6"  class="font-bold text-xl">16445</p>
                 <button class="bg-slate-200 px-4 py-1 rounded-[40%] text-gray-700 mt-3">NGO</button>
 
                 <div class="btn-group flex gap-4 mx-6 mt-5">
-                  <button class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
+                  <button onclick="copyText6()"  class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
 
-                  <button class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
+                  <button id="call8" class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
                 </div>
                 
                 </div>
@@ -283,15 +285,15 @@
                 </div>
             <!-- card-info -->
                 <div class="info mt-4">
-                <h1 class="hind-madurai-light font-bold text-[16px] ">Bangladesh Railway Helpline </h1>
+                <h1 id="s-name9" class="hind-madurai-light font-bold text-[16px] ">Bangladesh Railway Helpline </h1>
                 <p class="hind-madurai-light text-[14px] text-gray-500">Bangladesh Railway</p>
-                <p class="font-bold text-xl">163</p>
+                <p id="copy7"  class="font-bold text-xl">163</p>
                 <button class="bg-slate-200 px-4 py-1 rounded-[40%] text-gray-700 mt-3">Travel</button>
 
                 <div class="btn-group flex gap-4 mx-6 mt-5">
-                  <button class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
+                  <button onclick="copyText7()" class="w-[130px] py-2 text-gray-500 border-1 border-gray-400 font-medium rounded-lg"><i class="fa-regular fa-copy mr-2"></i>Copy</button>
 
-                  <button class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
+                  <button id="call9" class="w-[130px] py-2 text-white bg-green-600 font-medium rounded-lg"><i class="fa-solid fa-phone mr-2 "></i>Call</button>
                 </div>
                 
                 </div>
