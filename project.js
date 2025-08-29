@@ -230,7 +230,13 @@ let textElement = document.getElementById('copy1') . innerText;
 
 let coin = parseInt(document.getElementById('coin').innerText)
 
-document.getElementById('coin').innerText = coin - 20;
+
+  let costCoin =document.getElementById('coin').innerText = coin - 20;
+if (costCoin < 0) {
+      alert('Sorry! You do not have enough coin')
+      document.getElementById('coin').innerText = '0'
+      return
+   }
 
 alert( serviceNme +" " +":"  +" " + textElement  +" " +'is calling')
 
@@ -261,7 +267,13 @@ let textElement = document.getElementById('copy1') . innerText;
 
 let coin = parseInt(document.getElementById('coin').innerText)
 
-document.getElementById('coin').innerText = coin - 20;
+
+  let costCoin =document.getElementById('coin').innerText = coin - 20;
+if (costCoin < 0) {
+      alert('Sorry! You do not have enough coin')
+      document.getElementById('coin').innerText = '0'
+      return
+   }
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
  //let getCallname = document.getElementById('copy1').textContent
@@ -294,7 +306,13 @@ let textElement = document.getElementById('copy2') . innerText;
 
 let coin = parseInt(document.getElementById('coin').innerText)
 
-document.getElementById('coin').innerText = coin - 20;
+
+  let costCoin =document.getElementById('coin').innerText = coin - 20;
+if (costCoin < 0) {
+      alert('Sorry! You do not have enough coin')
+      document.getElementById('coin').innerText = '0'
+      return
+   }
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
 let now = new Date();
@@ -325,9 +343,14 @@ let textElement = document.getElementById('copy3') . innerText;
 let coin = parseInt(document.getElementById('coin').innerText)
 
 
-  document.getElementById('coin').innerText = coin - 20;
+  
+  let costCoin =document.getElementById('coin').innerText = coin - 20;
 
- 
+ if (costCoin < 0) {
+      alert('Sorry! You do not have enough coin')
+      document.getElementById('coin').innerText = '0'
+      return
+   }
 
 alert( serviceNme +" " +":"  +" " + textElement)
 let now = new Date();
@@ -356,7 +379,13 @@ let textElement = document.getElementById('copy4') . innerText;
 
 let coin = parseInt(document.getElementById('coin').innerText)
 
-document.getElementById('coin').innerText = coin - 20;
+
+  let costCoin =document.getElementById('coin').innerText = coin - 20;
+  if (costCoin < 0) {
+      alert('Sorry! You do not have enough coin')
+      document.getElementById('coin').innerText = '0'
+      return
+   }
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
 let now = new Date();
@@ -386,7 +415,12 @@ let textElement = document.getElementById('copy5') . innerText;
 
 let coin = parseInt(document.getElementById('coin').innerText)
 
-document.getElementById('coin').innerText = coin - 20;
+  let costCoin =document.getElementById('coin').innerText = coin - 20;
+if (costCoin < 0) {
+      alert('Sorry! You do not have enough coin')
+      document.getElementById('coin').innerText = '0'
+      return
+   }
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
 let now = new Date();
@@ -417,7 +451,13 @@ let textElement = document.getElementById('copy6') . innerText;
 
 let coin = parseInt(document.getElementById('coin').innerText)
 
-document.getElementById('coin').innerText = coin - 20;
+
+  let costCoin =document.getElementById('coin').innerText = coin - 20;
+if (costCoin < 0) {
+      alert('Sorry! You do not have enough coin')
+      document.getElementById('coin').innerText = '0'
+      return
+   }
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
 let now = new Date();
@@ -448,7 +488,13 @@ let textElement = document.getElementById('copy7') . innerText;
 
 let coin = parseInt(document.getElementById('coin').innerText)
 
-document.getElementById('coin').innerText = coin - 20;
+
+  let costCoin =document.getElementById('coin').innerText = coin - 20;
+if (costCoin < 0) {
+      alert('Sorry! You do not have enough coin')
+      document.getElementById('coin').innerText = '0'
+      return
+   }
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
 let now = new Date();
