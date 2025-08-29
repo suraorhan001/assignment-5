@@ -233,6 +233,23 @@ let coin = parseInt(document.getElementById('coin').innerText)
 document.getElementById('coin').innerText = coin - 20;
 
 alert( serviceNme +" " +":"  +" " + textElement  +" " +'is calling')
+
+let now = new Date();
+    let timeString = now.toLocaleTimeString(); 
+  let notification = document.createElement("div");
+
+    notification.className = "notification";   
+    notification.innerHTML = 
+    `
+         <div class="text">
+      <div class="title">${serviceNme}</div>
+      <div class="number">${textElement}</div>
+      </div>
+
+      <div class="time">${timeString}</div>
+    `;
+
+    document.getElementById("noti-div").appendChild(notification);
  
 })
 
@@ -247,7 +264,25 @@ let coin = parseInt(document.getElementById('coin').innerText)
 document.getElementById('coin').innerText = coin - 20;
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
- 
+ //let getCallname = document.getElementById('copy1').textContent
+
+let now = new Date();
+    let timeString = now.toLocaleTimeString(); 
+  let notification = document.createElement("div");
+
+    notification.className = "notification";   
+    notification.innerHTML = 
+    `
+         <div class="text">
+      <div class="title">${serviceNme}</div>
+      <div class="number">${textElement}</div>
+      </div>
+
+      <div class="time">${timeString}</div>
+    `;
+
+    document.getElementById("noti-div").appendChild(notification);
+
 })
 
 
@@ -262,6 +297,22 @@ let coin = parseInt(document.getElementById('coin').innerText)
 document.getElementById('coin').innerText = coin - 20;
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
+let now = new Date();
+    let timeString = now.toLocaleTimeString(); 
+  let notification = document.createElement("div");
+
+    notification.className = "notification";   
+    notification.innerHTML = 
+    `
+         <div class="text">
+      <div class="title">${serviceNme}</div>
+      <div class="number">${textElement}</div>
+      </div>
+
+      <div class="time">${timeString}</div>
+    `;
+
+    document.getElementById("noti-div").appendChild(notification);
  
 })
 
@@ -279,6 +330,22 @@ let coin = parseInt(document.getElementById('coin').innerText)
  
 
 alert( serviceNme +" " +":"  +" " + textElement)
+let now = new Date();
+    let timeString = now.toLocaleTimeString(); 
+  let notification = document.createElement("div");
+
+    notification.className = "notification";   
+    notification.innerHTML = 
+    `
+         <div class="text">
+      <div class="title">${serviceNme}</div>
+      <div class="number">${textElement}</div>
+      </div>
+
+      <div class="time">${timeString}</div>
+    `;
+
+    document.getElementById("noti-div").appendChild(notification);
  
 })
 document.getElementById('call6').
@@ -292,6 +359,22 @@ let coin = parseInt(document.getElementById('coin').innerText)
 document.getElementById('coin').innerText = coin - 20;
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
+let now = new Date();
+    let timeString = now.toLocaleTimeString(); 
+  let notification = document.createElement("div");
+
+    notification.className = "notification";   
+    notification.innerHTML = 
+    `
+         <div class="text">
+      <div class="title">${serviceNme}</div>
+      <div class="number">${textElement}</div>
+      </div>
+
+      <div class="time">${timeString}</div>
+    `;
+
+    document.getElementById("noti-div").appendChild(notification);
  
 })
 
@@ -306,6 +389,22 @@ let coin = parseInt(document.getElementById('coin').innerText)
 document.getElementById('coin').innerText = coin - 20;
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
+let now = new Date();
+    let timeString = now.toLocaleTimeString(); 
+  let notification = document.createElement("div");
+
+    notification.className = "notification";   
+    notification.innerHTML = 
+    `
+         <div class="text">
+      <div class="title">${serviceNme}</div>
+      <div class="number">${textElement}</div>
+      </div>
+
+      <div class="time">${timeString}</div>
+    `;
+
+    document.getElementById("noti-div").appendChild(notification);
  
 })
 
@@ -321,6 +420,22 @@ let coin = parseInt(document.getElementById('coin').innerText)
 document.getElementById('coin').innerText = coin - 20;
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
+let now = new Date();
+    let timeString = now.toLocaleTimeString(); 
+  let notification = document.createElement("div");
+
+    notification.className = "notification";   
+    notification.innerHTML = 
+    `
+         <div class="text">
+      <div class="title">${serviceNme}</div>
+      <div class="number">${textElement}</div>
+      </div>
+
+      <div class="time">${timeString}</div>
+    `;
+
+    document.getElementById("noti-div").appendChild(notification);
  
 })
 
@@ -336,6 +451,22 @@ let coin = parseInt(document.getElementById('coin').innerText)
 document.getElementById('coin').innerText = coin - 20;
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
+let now = new Date();
+    let timeString = now.toLocaleTimeString(); 
+  let notification = document.createElement("div");
+
+    notification.className = "notification";   
+    notification.innerHTML = 
+    `
+         <div class="text">
+      <div class="title">${serviceNme}</div>
+      <div class="number">${textElement}</div>
+      </div>
+
+      <div class="time">${timeString}</div>
+    `;
+
+    document.getElementById("noti-div").appendChild(notification);
  
 })
 
