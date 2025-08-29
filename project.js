@@ -184,10 +184,17 @@ addEventListener('click',function(){
 let serviceNme = document.getElementById('s-name1').innerText
 let textElement = document.getElementById('copy1') . innerText;
 
+ let newDiv = document.createElement('div');
 
+ 
 let coin = parseInt(document.getElementById('coin').innerText)
 
-document.getElementById('coin').innerText = coin - 20;
+  let costCoin =document.getElementById('coin').innerText = coin - 20;
+   if (costCoin < 0) {
+      alert('Sorry! You do not have enough coin')
+      document.getElementById('coin').innerText = '0'
+      return
+   }
 
 alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
  
@@ -246,8 +253,9 @@ let textElement = document.getElementById('copy3') . innerText;
 let coin = parseInt(document.getElementById('coin').innerText)
 
 
-document.getElementById('coin').innerText = coin - 20;
+  document.getElementById('coin').innerText = coin - 20;
 
+ 
 
 alert( serviceNme +" " +":"  +" " + textElement)
  
