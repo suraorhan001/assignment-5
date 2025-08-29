@@ -196,7 +196,7 @@ let coin = parseInt(document.getElementById('coin').innerText)
       return
    }
 
-alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
+alert(' Calling'+" " +  serviceNme +" " +":"  +" " + textElement )
 
 let getCallname = document.getElementById('n-t1').textContent
 
@@ -237,8 +237,7 @@ if (costCoin < 0) {
       document.getElementById('coin').innerText = '0'
       return
    }
-
-alert( serviceNme +" " +":"  +" " + textElement  +" " +'is calling')
+alert(' Calling'+" " +  serviceNme +" " +":"  +" " + textElement )
 
 let now = new Date();
     let timeString = now.toLocaleTimeString(); 
@@ -275,7 +274,7 @@ if (costCoin < 0) {
       return
    }
 
-alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
+alert(' Calling'+" " +  serviceNme +" " +":"  +" " + textElement )
  //let getCallname = document.getElementById('copy1').textContent
 
 let now = new Date();
@@ -352,7 +351,7 @@ let coin = parseInt(document.getElementById('coin').innerText)
       return
    }
 
-alert( serviceNme +" " +":"  +" " + textElement)
+alert(' Calling'+" " +  serviceNme +" " +":"  +" " + textElement )
 let now = new Date();
     let timeString = now.toLocaleTimeString(); 
   let notification = document.createElement("div");
@@ -387,7 +386,7 @@ let coin = parseInt(document.getElementById('coin').innerText)
       return
    }
 
-alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
+alert(' Calling'+" " +  serviceNme +" " +":"  +" " + textElement )
 let now = new Date();
     let timeString = now.toLocaleTimeString(); 
   let notification = document.createElement("div");
@@ -422,7 +421,7 @@ if (costCoin < 0) {
       return
    }
 
-alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
+alert(' Calling'+" " +  serviceNme +" " +":"  +" " + textElement )
 let now = new Date();
     let timeString = now.toLocaleTimeString(); 
   let notification = document.createElement("div");
@@ -459,7 +458,7 @@ if (costCoin < 0) {
       return
    }
 
-alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
+alert(' Calling'+" " +  serviceNme +" " +":"  +" " + textElement )
 let now = new Date();
     let timeString = now.toLocaleTimeString(); 
   let notification = document.createElement("div");
@@ -496,7 +495,7 @@ if (costCoin < 0) {
       return
    }
 
-alert( serviceNme +" " +":"  +" " + textElement +" " +'is calling')
+alert(' Calling'+" " +  serviceNme +" " +":"  +" " + textElement )
 let now = new Date();
     let timeString = now.toLocaleTimeString(); 
   let notification = document.createElement("div");
