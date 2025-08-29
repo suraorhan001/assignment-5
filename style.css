@@ -4,3 +4,30 @@
   font-family: "Hind Madurai", sans-serif;
   
 }
+.notification{
+  background-color: #e7efef;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.notification .title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.notification .number {
+  font-size: 13px;
+  color: #555;
+}
+
+
+.notification.time {
+  float: right;
+  font-size: 12px;
+  color: #999;
+}
+

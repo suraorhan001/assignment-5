@@ -88,7 +88,7 @@
             <!-- card-info -->
                 <div class="info mt-4">
                 <h1 id="s-name1" class="hind-madurai-light font-bold text-[16px] ">National Emergency Number</h1>
-                <p  class="hind-madurai-light text-[14px] text-gray-500">National Emergency</p>
+                <p id="n-t1" class="hind-madurai-light text-[14px] text-gray-500">National Emergency</p>
                 <p id="copy1" class="font-bold text-xl">999</p>
                 <button class="bg-slate-200 px-4 py-1 rounded-[40%] text-gray-700 mt-3">All</button>
 
@@ -301,11 +301,15 @@
             </div>
              
           </div>
-          <div id="history-div"  class="card-box-2 bg-white w-[90%]  h-35 mx-auto md:w-[30%] mt-4 md:h-[855px] rounded-lg shadow-md shadow-gray-400">
+          <div id="history-div"  class="card-box-2 bg-white w-[90%]  h-35 mx-auto md:w-[30%] mt-4 overflow-y-scroll md:h-[855px] rounded-lg shadow-md shadow-gray-400">
 
              <div class="call-history flex justify-between p-5">
-                  <p class="hind-madurai-light font-semibold">Call History</p>
-                  <button class="font-medium hind-madurai-light text-[16px] mr-3 w-20 py-1 rounded-xl text-white bg-green-500 ">Clear</button>
+                  <p class="hind-madurai-light font-semibold"><i class="fa-solid fa-clock-rotate-left"></i>Call History</p>
+                  <button id="clear" class="font-medium hind-madurai-light text-[16px] mr-3 w-20 py-1 rounded-xl text-white bg-green-500 ">Clear</button>
+                
+
+                </div>
+                <div id="noti-div"></div>
 
              </div>
 
